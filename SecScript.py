@@ -1,4 +1,7 @@
-def MyF(a):
+def mF(a):
     for i in range (10):
-        print('My Second script')
-MyF('Hello')
+        if i == 3 or i==5:
+            print('xyi')
+        else:
+            print('zbs')
+mF(10)
